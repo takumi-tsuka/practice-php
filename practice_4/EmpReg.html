@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost/practice-php/practice_4/Reg.php" method="post">
+        <input type="text" name="name" placeholder="name">
+        <select name="pos">
+            <option value="teacher">teacher</option>
+            <option value="staff">staff</option>
+            <option value="ITservice">IT services</option>
+            <option value="agent">agents</option>
+        </select>
+        <select name="dep">
+            <option value="edu">education</option>
+            <option value="manage">manegemant</option>
+            <option value="IT">IT</option>
+            <option value="accoount">Accounting</option>
+        </select>
+        <input type="text" name="salary" placeholder="salary">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Mstatus" id="married" value="married">
+          <label class="form-check-label" for="married">
+           married
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Mstatus" id="single" value="single">
+          <label class="form-check-label" for="single">
+           single
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+</body>
+</html>

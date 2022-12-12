@@ -1,0 +1,1 @@
+[{"name":"Takumi","position":"teacher","department":"edu","salary":"1000","mstatus":"married","newSalary":1100},{"name":"yusuke imai","position":"ITservice","department":"manage","salary":"1200","mstatus":"single","newSalary":"1200"},{"name":"Keisuke Honda","position":"agent","department":"manage","salary":"1500","mstatus":"married","newSalary":1650}]
