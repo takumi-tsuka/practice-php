@@ -84,11 +84,7 @@ $students =['Damrok'=>[78,89,57,100],'Clare'=>[85,68,78,95],'Yooran'=>[76,98,45,
                 if($AVG <$SUM/count($totalAvg)){
                     echo "<h2>less than avg;$names:$AVG</h2>";
                 }
-            }
-
-
-        
-        
+            } 
         ?>
     </tbody>
 </table>
