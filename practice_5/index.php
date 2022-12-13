@@ -22,6 +22,7 @@
                 // print_r($datas);
                 $sum = 0;
                 $max = $datas[0]['price'];
+                $min = $datas[0]['price'];
                 foreach($datas as $key =>$data){
                     echo "<tr>";
                     echo "<td>".$data['productName']."</td><td>".$data['price']."</td>";
@@ -33,7 +34,7 @@
                         $maxpro = $data['productName'];
                     }
                 }
-                $min = $max;
+                // $min = $max;
                 foreach($datas as $data){
                     if($min > $data['price']){
                         $min = $data['price'];
@@ -53,7 +54,7 @@
             }
         }
         echo "<h1>max product:$maxpro;max price:$max;</h1>";
-        echo "<h1>min product:$minpro;max price:$min;</h1>";
+        echo "<h1>min product:$minpro;min price:$min;</h1>";
         
         ?>
     
