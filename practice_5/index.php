@@ -46,7 +46,7 @@
         </thead>
     </table>
     <?php
-        echo "<h1>$avg</h1>";  
+        // echo "<h1>$avg</h1>";  
         foreach($datas as $data){
             if($avg<$data['price']){
                 $hipro = $data['productName'];
@@ -55,7 +55,6 @@
         }
         echo "<h1>max product:$maxpro;max price:$max;</h1>";
         echo "<h1>min product:$minpro;min price:$min;</h1>";
-        
         ?>
     
 </body>
