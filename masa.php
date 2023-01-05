@@ -3,5 +3,5 @@
        return $fnum + $snum;
     }
 
-   echo masa(3,9);
+   echo masa(3,3);
 ?>
